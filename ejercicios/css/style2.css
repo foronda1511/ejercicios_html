@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(127, 133, 194);
+}
+
+header{
+    background-color: rgb(58, 58, 107);
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+h2{
+  color: blue;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px; 
+  font-size: 40px; 
+}
+
+.indice{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.diseño{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style:italic;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+article {
+    margin-bottom: 80px;
+}
+
+ul{
+    margin-left: 60px;
+}
+
+.Caracteristicas{
+    color: blue;
+    font-size: 20px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: white 3px 5px 6px;
+    margin: auto;
+}
+
+a:hover{
+    color: red;
+    box-shadow: red 4px 5px 6px;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.lista{
+    color: blue;
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(104, 10, 10);
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    border-bottom: rgb(250, 33, 33) 2px solid;
+}
+
+h1{
+    color: white;
+    line-height: 90px;
+}
+
+body{
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    background-color: rgb(61, 6, 6);
+    line-height: 40px;
+}
+
+ul{
+    color: white;
+    border-bottom: rgb(255, 13, 13) 2px solid;
+}
+
+p{
+    margin-bottom: 20px;
+    text-align: center; 
+    color: white;
+}
+
+h2{
+    color: rgb(252, 2, 2);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+ol{
+    color: white;
+    text-align: center;
+}
+
+.destacada{
+    margin-right: 88%;
+}
+
+ol p{
+    color: red;
+    margin-bottom: 0%;
+}
+
+footer{
+    color: white;
+    margin-top: 40px;
+}
+
+
+.redes{
+    color: red;
+    text-decoration: none;
+    margin-left: 85%;
+}
+
+footer a{
+    color: red;
+    text-decoration: none;
+    box-shadow: blue 3px 4px 6px;
+}
+
+footer a:hover{
+    color: blue;
+    box-shadow: white 3px 6px 7px;
+}
