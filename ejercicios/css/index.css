@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 10px;
+    box-shadow: red 3px 6px 9px;
+}
+
+a:hover {
+    color: red;
+    background-color: white;
+}
+
+li {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content:center;
+}
+
+.pie {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border: solid white 2px;
+}
+
+.content {
+    border: solid rgb(151, 120, 120) 2px;
+    margin: auto;
+    margin-top: 30px;
+}
